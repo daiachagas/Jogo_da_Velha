@@ -56,11 +56,11 @@
 		allElementsInSomeLine = function() {
 			for( var i = 0; i < 7; i += 3) {
 				if ( tabuleiro[i] == 'X' && tabuleiro[i + 1] == 'X' && tabuleiro[i + 2] == 'X' ) { 
-					alert (jogador1.nome + ' wins!!!');
+					alert (jogador1.nome + ' Venceu!!!');
 					reset();
 				}
 				if ( tabuleiro[i] == 'O' && tabuleiro[i + 1] == 'O' && tabuleiro[i + 2] == 'O' ) {
-					alert (jogador2.nome + ' wins!!!');
+					alert (jogador2.nome + ' Venceu!!!');
 					reset();
 				}
 			}
